@@ -1,9 +1,6 @@
 .header {
-  background-color: rgb(197, 229, 250);
   width: 300px;
   padding: 20px;
-  border-radius: 50%;
-  border: 1px solid rgb(21, 118, 184);
 }
 .navigation__ul {
   display: flex;

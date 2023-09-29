@@ -17,9 +17,9 @@ export default function Home() {
     tg.showPopup(
       {
         title: "Связь с оператором",
-        message: 'Нажмите "перейти", чтобы перейти в чат.',
+        message: 'Нажмите "Перейти", чтобы перейти в чат.',
         buttons: [
-          { id: "link", type: "default", text: "перейти" },
+          { id: "link", type: "default", text: "Перейти" },
           { type: "cancel" },
         ],
       },

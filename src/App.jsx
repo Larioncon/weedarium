@@ -40,6 +40,7 @@ function App() {
 
   return (
     <>
+    <div className="wrapper">
       <Routes>
         <Route path="/" element={<Outletos />}>
           <Route index element={<Home />} />
@@ -48,6 +49,7 @@ function App() {
         </Route>
       </Routes>
       <div id="viewport"></div>
+      </div>
     </>
   );
 }

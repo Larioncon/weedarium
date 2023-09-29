@@ -10,8 +10,9 @@
   align-items: center;
 }
 .home__buy-btn {
+  font-size: 20px;
   margin-top: 25px;
-  width: 80px;
+  width: 150px;
   padding: 5px;
   background-color: greenyellow;
   border-radius: 12px;
