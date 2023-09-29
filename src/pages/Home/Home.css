@@ -1,0 +1,34 @@
+
+.home {
+  margin-top: 25px;
+  width: 300px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__buy-btn {
+  margin-top: 25px;
+  width: 80px;
+  padding: 5px;
+  background-color: greenyellow;
+  border-radius: 12px;
+  transition: all 1s;
+}
+
+.home__buy-btn:hover {
+  background-color: rgb(142, 226, 15);
+  transition: all 0.5s;
+}
+.home__buy-btn:active {
+  background-color: rgb(78, 122, 11);
+  transition: all 0.5s;
+}
+.test {
+  width: 90%;
+  max-width: 400px;
+  border: 1px solid rgb(21, 118, 184);
+  border-radius: 15px;
+}

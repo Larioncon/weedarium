@@ -1,0 +1,20 @@
+.header {
+  background-color: rgb(197, 229, 250);
+  width: 300px;
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid rgb(21, 118, 184);
+}
+.navigation__ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.navigation__li {
+  margin-right: 25px;
+}
+
+.navigation__link {
+transition: all 1s;
+}
