@@ -6,9 +6,7 @@ const Outletos = () => {
   return (
     <>
     <Header />
-    <main>
     <Outlet />
-    </main>
     </>
   )
 }
