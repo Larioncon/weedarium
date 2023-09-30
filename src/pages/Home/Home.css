@@ -1,7 +1,6 @@
 
 .home {
   margin-top: 25px;
-  width: 300px;
 }
 .container {
   display: flex;
@@ -29,7 +28,7 @@
 }
 .test {
   width: 90%;
-  max-width: 400px;
+  max-width: 90%;
   border: 1px solid rgb(21, 118, 184);
   border-radius: 15px;
 }

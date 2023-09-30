@@ -38,7 +38,6 @@ a {
   transition: all 1s;
 }
 .wrapper  {
-  background-color: cadetblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
