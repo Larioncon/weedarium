@@ -51,6 +51,9 @@ export default function Home() {
   return (
     <section className='home'>
       <div className="container">
+      <h1 className="home__heading">💥 Paды видеть Bac!</h1>
+      <p className="home__text">Продажи ведутся в ежедневном режиме.<br /> Мы стapaeмся для Вас!
+      Ознакомьтесь <br /> с ассортиментом и ценами.</p>
       {images.map((image, index) => (
           <ModalImage
             key={index}
