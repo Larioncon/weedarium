@@ -1,5 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
+import ModalImage from 'react-modal-image';
 import './Home.css';
 import img1 from './../../images/1amf.jpg'
 import img2 from './../../images/2dmet.jpg'
@@ -11,7 +12,15 @@ import img7 from './../../images/7mef.jpg'
 const tg = window.Telegram.WebApp;
 
 export default function Home() {
-   
+  const images = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7
+  ];
   // Function to call showPopup API
   function showPopup() {
     tg.showPopup(
@@ -42,7 +51,16 @@ export default function Home() {
   return (
     <section className='home'>
       <div className="container">
-      <img className="test" src={img1} alt="img" />
+      {images.map((image, index) => (
+          <ModalImage
+            key={index}
+            className='home__image'
+            small={image} // Маленькое изображение для предварительного просмотра
+            large={image} // Увеличенное изображение
+            alt={`img${index + 1}`} // Присвойте уникальный альтернативный текст
+            hideZoom={true} // Скройте кнопку увеличения, если не нужна
+          />
+        ))}
       <button onClick={showPopup} className="home__buy-btn">Купить</button>
       </div>
     </section>

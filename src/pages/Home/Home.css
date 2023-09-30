@@ -9,10 +9,10 @@
   align-items: center;
 }
 .home__buy-btn {
-  font-size: 20px;
-  margin-top: 25px;
+  font-size: 25px;
+  margin: 25px 0 25px 0;
   width: 150px;
-  padding: 5px;
+  padding: 10px;
   background-color: greenyellow;
   border-radius: 12px;
   transition: all 1s;
@@ -26,8 +26,9 @@
   background-color: rgb(78, 122, 11);
   transition: all 0.5s;
 }
-.test {
-  width: 90%;
+.home__image {
+  margin-top: 10px;
+  width: 95%;
   max-width: 90%;
   border: 1px solid rgb(21, 118, 184);
   border-radius: 15px;
