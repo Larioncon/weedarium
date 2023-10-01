@@ -26,15 +26,15 @@ export default function Home() {
     tg.showPopup(
       {
         title: "Связь с оператором",
-        message: 'Нажмите "Перейти", чтобы перейти в чат.',
+        message: 'Для связи с нашим оператором, пожалуйста, нажмите кнопку "Перейти к чату".',
         buttons: [
-          { id: "link", type: "default", text: "Перейти" },
+          { id: "link", type: "default", text: "Перейти к чату" },
           { type: "cancel" },
         ],
       },
       function (btn) {
         if (btn === "link") {
-          tg.openLink("https://t.me/riggs8");
+          tg.openTelegramLink("https://t.me/jenkinsot");
         }
       }
     );
@@ -61,7 +61,7 @@ export default function Home() {
             small={image} // Маленькое изображение для предварительного просмотра
             large={image} // Увеличенное изображение
             alt={`img${index + 1}`} // Присвойте уникальный альтернативный текст
-            hideZoom={true} // Скройте кнопку увеличения, если не нужна
+            hideZoom={false} // Скройте кнопку увеличения, если не нужна
           />
         ))}
       <button onClick={showPopup} className="home__buy-btn">Купить</button>

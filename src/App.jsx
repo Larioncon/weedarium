@@ -23,7 +23,7 @@ function App() {
 
     // Обработчик нажатия на главную кнопку
     tg.MainButton.onClick(function () {
-      tg.openLink('https://t.me/riggs8');
+      tg.openTelegramLink('https://t.me/jenkinsot');
     });
 
     // Показ главной кнопки
